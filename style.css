@@ -7,13 +7,18 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
 
 .container {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 16px 120px;
+    padding: 16px;
 }
 
 .header {
@@ -45,14 +50,29 @@ a {
 }
 
 
+
 .section-one {
     display: flex;
     padding: 56px 0px;
+    gap: 16px;
 }
+
 
 .container-left {
     flex: 1;
     gap: 8px;
+}
+
+.text {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 8px 0px;
+}
+
+.title-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 button {
@@ -64,6 +84,7 @@ button {
     border: none;
 }
 
+
 .container-right {
     flex: 1;
 }
@@ -73,3 +94,26 @@ button {
     height: auto;
 }
 
+
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+.container-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    
+}
+
+.info div {
+    width: 100px;
+    height: 100px;
+    border: 2px #3882F6;
+}
